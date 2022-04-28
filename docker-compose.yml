@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  nginx:
+    build: .
+    image: random_name
+    ports:
+      - 80:80
